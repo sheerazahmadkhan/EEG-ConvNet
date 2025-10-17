@@ -188,9 +188,9 @@ def eval_model(model, dataloader, criterion, device):
     return val_loss, val_acc, predictions, targets
 
 
-# -----------------------------------------------------------------------------
-# Main training script (wrapped in main)
-# -----------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------
+# Main training script 
+# ---------------------------------------------------------------------------------------------
 def main():
     # Prepare dataset
     csv_file_path = CSV_FILE_PATH
@@ -272,7 +272,7 @@ def main():
             else:
                 print(f"Warning: no best state saved for fold {fold+1} model {model_idx+1}")
 
-            # Optional: plot confusion matrix for this model (if we have val_preds)
+            
             try:
                 if len(val_preds) > 0 and len(val_targets) > 0:
                     cm = confusion_matrix(val_targets, val_preds)
