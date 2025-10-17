@@ -61,7 +61,4 @@ python EEG-ConvNet.py
 **Sheeraz Ahmad Khan**  
 _Deep Learning Researcher | EEG Signal Processing | Computer Vision_
 
----
 
-## ⚖️ License
-This project is open-source under the MIT License.
