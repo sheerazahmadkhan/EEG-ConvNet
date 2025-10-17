@@ -1,0 +1,6 @@
+__pycache__/
+*.pth
+*.log
+.env
+models/saved_weights/
+.ipynb_checkpoints/
